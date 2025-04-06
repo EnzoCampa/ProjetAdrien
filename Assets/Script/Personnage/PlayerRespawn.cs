@@ -77,7 +77,9 @@ public class PlayerRespawn : MonoBehaviour
         ParticleRender.enabled = true;
         Poussiere.enabled = false;
         DeadParticle.position = target.position;
+
         audio_Manager.PlaySFX(audio_Manager.death);
+
 
 
         Movement.canmove = false;
